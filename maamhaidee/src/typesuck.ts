@@ -1,3 +1,6 @@
+/*
+
+Entire code is commented out because yes.
 // clock clock clock hickety clock
 function updateClock(): void 
 {
@@ -54,7 +57,7 @@ function opentab(tabname: string): void
         tabElement.classList.add("active-tab");
     }
 }
-*/
+
 // mobile view
 const sidemenu: HTMLElement | null = document.getElementById("sidemenu");
 
@@ -98,3 +101,4 @@ if (form) {
             .catch(error => console.error('Error!', error.message));
     });
 }
+ */
