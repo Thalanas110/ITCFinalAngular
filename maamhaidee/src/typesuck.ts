@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function ()
 {
     updateClock();
 });
-
+/* Code is commented as new implementation is to be found.
 // east scroll
 const tablinks: HTMLCollectionOf<Element> = document.getElementsByClassName("tab-links");
 const tabcontents: HTMLCollectionOf<Element> = document.getElementsByClassName("tab-contents");
@@ -54,7 +54,7 @@ function opentab(tabname: string): void
         tabElement.classList.add("active-tab");
     }
 }
-
+*/
 // mobile view
 const sidemenu: HTMLElement | null = document.getElementById("sidemenu");
 
@@ -73,6 +73,7 @@ function closemenu(): void
         sidemenu.style.right = "-200px";
     }
 }
+
 
 // document forms
 const scriptURL: string = 'https://script.google.com/macros/s/AKfycbysRcUIs3KUkABAFTqt1lVt2ESmcdD7RxQYz_6d2R9gsbRu-mxzbeNLylyIHhgkljh5OQ/exec';
